@@ -1,0 +1,6 @@
+{
+  "name": "Listings Marketplace",
+  "description": "A marketplace app with real-time Firestore listings, photo compression, categories, and favorites.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

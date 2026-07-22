@@ -1,0 +1,19 @@
+{
+  "entities": {
+    "listings": {
+      "title": "Listings",
+      "description": "Marketplace items for sale",
+      "properties": {
+        "name": { "type": "string", "description": "Title of the item" },
+        "category": { "type": "string", "description": "Category name" },
+        "price": { "type": "number", "description": "Price in USD" },
+        "condition": { "type": "string", "description": "Item condition" },
+        "description": { "type": "string", "description": "Item description" },
+        "imageBase64": { "type": "string", "description": "Compressed base64 data string" },
+        "createdAt": { "type": "timestamp", "description": "Creation timestamp" },
+        "sellerId": { "type": "string", "description": "Seller user ID" }
+      },
+      "required": ["name", "category", "price", "condition"]
+    }
+  }
+}
